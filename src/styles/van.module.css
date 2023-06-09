@@ -1,0 +1,134 @@
+.van{
+    color: black;
+    padding: 2rem var(--padding);
+}
+.van-nav{
+    /* outline: 1px solid red; */
+    width: fit-content;
+    margin-bottom: 0.5rem;
+}
+.back{
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    
+}
+.van-nav span{
+text-decoration: none;
+color: black;
+font-size: larger;
+}
+
+.van-item {
+    /* outline: 1px solid green; */
+    height: fit-content;
+    width: 100%;
+}
+.van-item div{
+    margin-bottom: 0.5rem;
+}
+.van-item-image-div {
+    /* outline: 10px solid rgb(128, 9, 0); */
+    /* height: 60vh; */
+    border-radius: 10px;
+    /* width: 100%; */
+
+}
+
+.van-img{
+    /* height: 30vh; */
+    border-radius: inherit;
+    width: 100%;
+    vertical-align: bottom;
+    object-fit: cover;
+    object-position: center;
+}
+
+.van-type{
+    outline: 1px solid red;
+     width: fit-content;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 5px;
+    outline: 1px solid var(--light);
+}
+
+.van-type span{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: medium;
+}
+.van-price-per-day span{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: x-large;
+}
+.van-price-per-day .van-price-duration{
+    font-weight: 400;
+    font-size: medium;
+}
+.van-name span{
+    font-size: x-large;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.van-description{
+    margin-bottom: 2rem;
+}
+.van-description p{
+    text-indent: 2.5rem;
+    text-align: justify;
+    word-break:keep-all;
+}
+.comments span{
+    font-size: large;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+.add-comment{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 0.5rem;
+}
+.add-comment textarea {
+    resize: vertical;
+    width: 100%;
+    /* min-height: calc(100vh - 14rem); */
+    height: 6rem;
+}
+
+.add-comment textarea {
+    font-size: large;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.add-comment button{
+    float: right;
+    width: fit-content;
+    text-transform: capitalize;
+    font-size: medium;
+    font-weight: 700;
+    padding: 0.4rem 1rem;
+}
+.comment-btn-div{
+    display: flex;
+    justify-content: space-between;
+}
+.comment-list{
+    outline: 2px solid red;
+    display: flex;
+        flex-direction: column;
+        gap: 1rem;
+}
+.book-this-van {
+    border: none;
+    font-size: larger;
+    width: fit-content;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 5px;
+    background-color: var(--dark);
+
+    outline: 1px solid var(--light);
+}

@@ -1,0 +1,101 @@
+.van {
+    color: black;
+    padding: 2rem var(--padding);
+}
+
+.van-nav {
+    /* outline: 1px solid red; */
+    width: fit-content;
+    margin-bottom: 0.5rem;
+}
+
+.back {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+.van-nav span {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+.van-item {
+    /* outline: 1px solid green; */
+    height: fit-content;
+    width: 100%;
+}
+
+.van-item div {
+    margin-bottom: 0.5rem;
+}
+
+.van-item-image-div {
+    /* outline: 10px solid rgb(128, 9, 0); */
+    /* height: 60vh; */
+    border-radius: 10px;
+    /* width: 100%; */
+
+}
+
+.van-img {
+    /* height: 30vh; */
+    border-radius: inherit;
+    width: 100%;
+    vertical-align: bottom;
+    object-fit: cover;
+    object-position: center;
+}
+
+.van-type {
+    /* outline: 1px solid red; */
+    width: fit-content;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 5px;
+    background-color: var(--dark);
+}
+
+.van-type span {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.van-price-per-day span {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.van-price-per-day .van-price-duration {
+    font-weight: 400;
+    font-size: medium;
+}
+
+.van-name span {
+    font-size: x-large;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.van-descriotion p {
+    text-indent: 5rem;
+}
+
+.unlist {
+    border: none;
+    font-size: larger;
+    width: fit-content;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 5px;
+    background: inherit;
+    font-weight: 500;
+    text-transform: capitalize;
+    outline: 1px solid red;
+    letter-spacing: 2px;
+    /* background-color: var(--dark); */
+}

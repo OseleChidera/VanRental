@@ -1,0 +1,121 @@
+.explore{
+max-width: 90%;
+width: 100%;
+margin-inline: auto;
+}
+
+.explore h2{
+margin: 1rem 0;
+font-weight: 550;
+font-size: xx-large;
+}
+
+.explore-nav{
+    display: inline-flex;
+    width: 100%;
+    padding: 10px 0;
+    /* outline: 1px solid red; */
+    flex-direction: row;
+    /* gap: 0.rem; */
+    justify-content: space-evenly;
+    gap: 0.2rem;
+    align-items:flex-end;
+    margin-bottom: 2rem;
+    position: sticky;
+    top: 0;
+    bottom: 1rem;
+    z-index: 1;
+    /* background-color: var(--dark); */
+    backdrop-filter: blur(10px);
+}
+.explore-nav a:not(button){
+    font-size: medium;
+    /* color: red; */
+    text-transform: capitalize;
+}
+.explore-nav button{
+    padding: 5px 10px;
+    text-transform: capitalize;
+    font-size: medium;
+    /* color: var(--dark); */
+}
+.van-list{
+/* outline: 1px solid red; */
+
+}
+.van-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(150px , 1fr));
+    gap: 1.5rem;
+    grid-template-rows: repeat(auto, 1fr);
+}
+.van{
+    outline: 1px solid var(--light);
+    border-radius: 5px;
+    height: fit-content;
+    background-color: #bd9f88;
+/* background: rgba(244, 221, 205, 0.25); */
+    /* box-shadow: 0 3px 10px 0 rgb(228, 228, 228); */
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(1.5px);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    /* width: 45%; */
+}
+.van-image-div{
+    width: fit-content;
+    height: fit-content;
+    border-radius: inherit;
+    margin-bottom: var(--mb);
+    /* outline: 1px solid rgb(0, 255, 34); */
+    
+}
+.van img{
+    /* width: auto; */
+    /* height: 100%; */
+    vertical-align: bottom;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 0.4rem;
+}
+.van-info{
+    /* outline: 1px solid red; */
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.4rem;
+    width: 100%;
+    text-transform: capitalize;
+}
+
+.description{
+    display: inline-flex;
+    width: 85%;
+    margin: auto;
+    gap: 0.5rem;
+}
+.van-name{
+    /* outline: 1px solid red; */
+    font-weight: 600;
+    font-size: medium;
+    word-wrap: break-word;
+    margin-bottom: var(--mb);
+
+}
+.van-type{
+    outline: 1px solid red;
+    width: fit-content;
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: medium;
+    border-radius: 5px;
+    background-color:var(--dark);
+    text-transform: capitalize;
+}
+.van-price-per-day{
+    font-size: 16px;
+}

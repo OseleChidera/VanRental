@@ -1,0 +1,55 @@
+.center {
+    /* width: 100%; */
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-signup-modal {
+    outline: 1px solid black;
+    width: 90%;
+    height: fit-content;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.login-signup-modal input {
+    border: 1px solid black;
+    width: 100%;
+    font-size: larger;
+    text-transform: capitalize;
+    text-indent: 5px;
+    padding: 5px;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    background-color: inherit;
+}
+
+.login-signup-modal input:placeholder-shown {
+    text-indent: 5px;
+}
+
+.login-signup-modal h2 {
+    margin-bottom: 1rem;
+}
+
+.login-signup-modal button {
+    color: var(--light);
+    background-color: var(--dark);
+    width: 100%;
+    font-size: larger;
+    text-transform: capitalize;
+    text-indent: 5px;
+    padding: 5px;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    
+}

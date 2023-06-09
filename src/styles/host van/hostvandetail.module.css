@@ -1,0 +1,74 @@
+.detail{
+    margin-bottom: var(--mb12);
+}
+
+.detail b{
+font-size: larger;
+text-transform: capitalize;
+}
+.detail label{
+    margin-right: 0.5rem;
+    color: black;
+    text-transform: capitalize;
+}
+.detail:has(textarea) label{
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+}
+.detail input {
+text-indent: 3px;
+width: 15ch;
+}
+/* .detail input[type="number"] {
+    text-indent: 5px;
+    width: 3ch;
+} */
+
+.detail textarea {
+    overflow: scroll;
+    max-width: 100%;
+    width: 100%;
+    min-height: calc(100vh - 14rem);
+    max-height: fit-content;
+    font-size: clamp(13px, 15px, 17px);
+}
+.detail input,textarea {
+font-size: large;
+font-weight: 500;
+text-transform: capitalize;
+width: fit-content;
+}
+.detail textarea {
+    
+    /* font-weight: 500; */
+    /* text-transform: capitalize; */
+    /* width: fit-content; */
+}
+.options{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.option {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+.detail input[type="radio"] {
+margin-right: 15px;
+}
+.save {
+    border: none;
+    font-size: larger;
+    width: 100%;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 5px;
+    background: inherit;
+    font-weight: 500;
+    text-transform: capitalize;
+    outline: 1px solid red;
+    letter-spacing: 2px;
+    /* background-color: var(--dark); */
+}

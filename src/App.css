@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@100;200;300;400&display=swap');
+html{
+  height: 100vh;
+  width: 100%;
+}
+/* font-family: 'Inter',
+sans-serif;
+font-family: 'Montserrat',
+sans-serif; */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.active{
+font-weight: 700;
+text-decoration: underline;
+transform: scale(0.8);
+ /* color: red; */
+}
+a{
+  text-decoration-line: underline;
+}
+:root{
+  --light: #f8f9fb;
+  --dark: #debba0;
+  /* --light: #f0f5f0;
+  --dark: #583b59; */
+  --padding: 1.2rem;
+  --padding15: 1.5rem;
+  --mb07: 0.7rem
+  --mb:1rem;
+  --mb2: 2rem;
+  --mb15: 1.5rem;
+  --mb12: 1.2rem;
+}
+body{
+  background-color:var(--light) !important;
+  
+}
+img {
+  vertical-align: bottom;
+}
+.main-nav {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  /* height: 7rem; */
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: larger;
+  padding: var(--padding);
+  outline: 1px solid red;
+  background-color: var(--dark);
+  color: var(--light);
+  
+}
+.main-nav ul{
+  width: fit-content;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-nav ul li{
+  list-style-type: none;
+  /* font-size: larger; */
+  font-weight: 500;
+}
+.main-nav a{
+  text-decoration-line: none;
+  color: inherit;
+  /* color: black; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-nav .logo{
+  
+ 
+  /* font-size: x-large; */
+}
+.main-nav .logo span{
+  line-height: 3rem;
+  color: black;
+  font-size: clamp(23px, 25px, 27px);
+  font-family: 'Inter', sans-serif;
+    font-family: 'Poiret One', cursive;
+    /* font-size: clamp(2px, 22px, 24px); */
+    font-weight: 700;
+    color: var(--light);
+}
+.outlet{
+  background-color: var(--dark);
+  height: calc(100vh - 9rem);
+  width: 100%;
+
+  
+  /* padding: var(--padding15); */
+  padding-top:0 ;
+  outline: 1px solid red;
+  overflow-y: scroll;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+footer{
+  width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  padding: 0.8rem;
+  font-size: medium;
+  background-color: var(--dark);
+  color: var(--light);
 }

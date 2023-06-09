@@ -1,0 +1,91 @@
+.host-info-span {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem var(--padding);
+    /* background-color: var(--dark); */
+    background-color: #c8956f;
+    /* margin-top: 7rem; */
+}
+
+.host-info-span h1 {
+    text-transform: capitalize;
+    font-size: 55px;
+    font-weight: 800;
+
+}
+
+.income {
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 1.7rem 0;
+}
+
+.income span {
+    font-size: large;
+    font-weight: 500;
+    line-height: 1.5rem;
+    /* outline: 1px solid red; */
+}
+
+.income-in-fig {
+    text-transform: capitalize;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.review {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 2rem var(--padding);
+    /* outline: 1px solid red; */
+    font-size: large;
+    font-weight: 500;
+    line-height: 1.5rem;
+    background-color: rgb(231, 174, 130);
+}
+
+.host-van-list {
+    background-color: var(--dark);
+    position: relative;
+}
+
+.listed-vans-functionality {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 1.7rem var(--padding);
+    outline: 1px solid red;
+    font-size: large;
+    font-weight: 500;
+    line-height: 1.5rem;
+    position: sticky;
+    top: 5rem;
+    z-index: 1;
+    background-color: var(--dark);
+}
+.listed-van-options{
+    display: inline-flex;
+    gap: 1rem;
+}
+.listed-van-options button{
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: small;
+    font-weight: 500;
+    background-color: inherit;
+    
+}
+.listed-van-options button:focus{
+border: none;
+outline: 1px solid red;
+}
+.van-list {
+    width: calc(100% - 2rem);
+    margin-inline: auto;
+    min-height: fit-content;
+    /* outline: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

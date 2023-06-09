@@ -1,0 +1,28 @@
+.customer-review {
+    margin-bottom: var(--mb12);
+}
+
+.customer-review p {
+    text-align: justify;
+}
+
+.customer-review h1 {
+    margin-bottom: 0.8rem;
+}
+
+.customer-review div {
+    margin-bottom: 0.8rem;
+}
+
+.user {
+    text-transform: capitalize;
+    display: inline;
+    margin-right: 10px;
+
+}
+
+.review-date {
+    text-transform: capitalize;
+    opacity: 0.5;
+    text-decoration-line: underline;
+}

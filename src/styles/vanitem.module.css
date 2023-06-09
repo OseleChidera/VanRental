@@ -1,0 +1,47 @@
+.van-item {
+    outline: 1px solid black;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.van-detail {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    /* outline: 1px solid red; */
+
+}
+
+.van-detail .name {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.van-img-div {
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    outline: 1px solid red;
+    border-radius: inherit;
+
+}
+
+.van-img {
+    height: 100%;
+    width: 6rem;
+    border: 1px solid red;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.edit {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: medium;
+}
